@@ -13,7 +13,7 @@ from database.sql import add_user, query_msg, full_userbase
 
 #=====================================================================================##
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>Tunggu bentar tolol ...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
@@ -114,7 +114,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "Join Dulu Tod!",
                 url = client.invitelink)
         ]
     ]
